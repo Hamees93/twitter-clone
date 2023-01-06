@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Feed from "../components/Feed";
 import Sidebar from "../components/Sidebar";
 
 export default function Home() {
@@ -14,104 +15,7 @@ export default function Home() {
         {/* sidebar */}
         <Sidebar />
         {/* feed */}
-        <div className="space-y-10">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-            recusandae quo architecto est inventore, voluptates vero tenetur
-            distinctio perspiciatis, a totam sunt esse consequatur quam iusto,
-            sit ut minus quasi.
-          </p>
-        </div>
+        <Feed />
         {/* widgets */}
         widgets area
       </main>
